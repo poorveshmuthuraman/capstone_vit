@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0FCF622B64D9B90021CDC9 /* SetupExcerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCF612B64D9B80021CDC9 /* SetupExcerciseView.swift */; };
+		DB0FCF642B64E00E0021CDC9 /* ExcerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0FCF632B64E00E0021CDC9 /* ExcerciseView.swift */; };
+		DBF30BC02B59722F00094652 /* Heart Rate Reader Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DBF30BBF2B59722F00094652 /* Heart Rate Reader Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBF30BC52B59722F00094652 /* Heart_Rate_ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF30BC42B59722F00094652 /* Heart_Rate_ReaderApp.swift */; };
+		DBF30BC72B59722F00094652 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF30BC62B59722F00094652 /* ContentView.swift */; };
+		DBF30BC92B59723100094652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF30BC82B59723100094652 /* Assets.xcassets */; };
+		DBF30BCC2B59723100094652 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF30BCB2B59723100094652 /* Preview Assets.xcassets */; };
+		DBF30BD92B5979C400094652 /* HeartRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF30BD82B5979C400094652 /* HeartRateViewModel.swift */; };
+		DBF30BDB2B59823B00094652 /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF30BDA2B59823B00094652 /* HeartRateManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF30BC12B59722F00094652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF30BB32B59722E00094652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF30BBE2B59722F00094652;
+			remoteInfo = "Heart Rate Reader Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBF30BD22B59723100094652 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DBF30BC02B59722F00094652 /* Heart Rate Reader Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB0FCF612B64D9B80021CDC9 /* SetupExcerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupExcerciseView.swift; sourceTree = "<group>"; };
+		DB0FCF632B64E00E0021CDC9 /* ExcerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseView.swift; sourceTree = "<group>"; };
+		DBF30BB92B59722F00094652 /* Heart Rate Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF30BBF2B59722F00094652 /* Heart Rate Reader Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate Reader Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF30BC42B59722F00094652 /* Heart_Rate_ReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart_Rate_ReaderApp.swift; sourceTree = "<group>"; };
+		DBF30BC62B59722F00094652 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBF30BC82B59723100094652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBF30BCB2B59723100094652 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBF30BD82B5979C400094652 /* HeartRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateViewModel.swift; sourceTree = "<group>"; };
+		DBF30BDA2B59823B00094652 /* HeartRateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
+		DBF30BDC2B5984A000094652 /* Heart Rate Reader Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Heart Rate Reader Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF30BBC2B59722F00094652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0FCF652B64E0850021CDC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FCF632B64E00E0021CDC9 /* ExcerciseView.swift */,
+				DB0FCF612B64D9B80021CDC9 /* SetupExcerciseView.swift */,
+				DBF30BC62B59722F00094652 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBF30BB22B59722E00094652 = {
+			isa = PBXGroup;
+			children = (
+				DBF30BC32B59722F00094652 /* Heart Rate Reader Watch App */,
+				DBF30BBA2B59722F00094652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF30BBA2B59722F00094652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF30BB92B59722F00094652 /* Heart Rate Reader.app */,
+				DBF30BBF2B59722F00094652 /* Heart Rate Reader Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF30BC32B59722F00094652 /* Heart Rate Reader Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DBF30BDC2B5984A000094652 /* Heart Rate Reader Watch App.entitlements */,
+				DBF30BC42B59722F00094652 /* Heart_Rate_ReaderApp.swift */,
+				DBF30BD82B5979C400094652 /* HeartRateViewModel.swift */,
+				DBF30BDA2B59823B00094652 /* HeartRateManager.swift */,
+				DB0FCF652B64E0850021CDC9 /* View */,
+				DBF30BC82B59723100094652 /* Assets.xcassets */,
+				DBF30BCA2B59723100094652 /* Preview Content */,
+			);
+			path = "Heart Rate Reader Watch App";
+			sourceTree = "<group>";
+		};
+		DBF30BCA2B59723100094652 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBF30BCB2B59723100094652 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF30BB82B59722E00094652 /* Heart Rate Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF30BD32B59723100094652 /* Build configuration list for PBXNativeTarget "Heart Rate Reader" */;
+			buildPhases = (
+				DBF30BB72B59722E00094652 /* Resources */,
+				DBF30BD22B59723100094652 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF30BC22B59722F00094652 /* PBXTargetDependency */,
+			);
+			name = "Heart Rate Reader";
+			productName = "Heart Rate Reader";
+			productReference = DBF30BB92B59722F00094652 /* Heart Rate Reader.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DBF30BBE2B59722F00094652 /* Heart Rate Reader Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF30BCF2B59723100094652 /* Build configuration list for PBXNativeTarget "Heart Rate Reader Watch App" */;
+			buildPhases = (
+				DBF30BBB2B59722F00094652 /* Sources */,
+				DBF30BBC2B59722F00094652 /* Frameworks */,
+				DBF30BBD2B59722F00094652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heart Rate Reader Watch App";
+			productName = "Heart Rate Reader Watch App";
+			productReference = DBF30BBF2B59722F00094652 /* Heart Rate Reader Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF30BB32B59722E00094652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					DBF30BB82B59722E00094652 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					DBF30BBE2B59722F00094652 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = DBF30BB62B59722E00094652 /* Build configuration list for PBXProject "Heart Rate Reader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF30BB22B59722E00094652;
+			productRefGroup = DBF30BBA2B59722F00094652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF30BB82B59722E00094652 /* Heart Rate Reader */,
+				DBF30BBE2B59722F00094652 /* Heart Rate Reader Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF30BB72B59722E00094652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF30BBD2B59722F00094652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF30BCC2B59723100094652 /* Preview Assets.xcassets in Resources */,
+				DBF30BC92B59723100094652 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF30BBB2B59722F00094652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF30BDB2B59823B00094652 /* HeartRateManager.swift in Sources */,
+				DBF30BD92B5979C400094652 /* HeartRateViewModel.swift in Sources */,
+				DB0FCF642B64E00E0021CDC9 /* ExcerciseView.swift in Sources */,
+				DBF30BC72B59722F00094652 /* ContentView.swift in Sources */,
+				DBF30BC52B59722F00094652 /* Heart_Rate_ReaderApp.swift in Sources */,
+				DB0FCF622B64D9B90021CDC9 /* SetupExcerciseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF30BC22B59722F00094652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF30BBE2B59722F00094652 /* Heart Rate Reader Watch App */;
+			targetProxy = DBF30BC12B59722F00094652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBF30BCD2B59723100094652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBF30BCE2B59723100094652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DBF30BD02B59723100094652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Heart Rate Reader Watch App/Heart Rate Reader Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heart Rate Reader Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QQ93M4K6P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Heart Rate Reader";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your heart rate data will be used to track your meditation progress";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Heart-Rate-Reader.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		DBF30BD12B59723100094652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Heart Rate Reader Watch App/Heart Rate Reader Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heart Rate Reader Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QQ93M4K6P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Heart Rate Reader";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your heart rate data will be used to track your meditation progress";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Heart-Rate-Reader.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		DBF30BD42B59723100094652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Heart Rate Reader";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Heart-Rate-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBF30BD52B59723100094652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Heart Rate Reader";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Heart-Rate-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF30BB62B59722E00094652 /* Build configuration list for PBXProject "Heart Rate Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF30BCD2B59723100094652 /* Debug */,
+				DBF30BCE2B59723100094652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF30BCF2B59723100094652 /* Build configuration list for PBXNativeTarget "Heart Rate Reader Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF30BD02B59723100094652 /* Debug */,
+				DBF30BD12B59723100094652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF30BD32B59723100094652 /* Build configuration list for PBXNativeTarget "Heart Rate Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF30BD42B59723100094652 /* Debug */,
+				DBF30BD52B59723100094652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF30BB32B59722E00094652 /* Project object */;
+}
